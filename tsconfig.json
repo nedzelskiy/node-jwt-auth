@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "removeComments": true,
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
