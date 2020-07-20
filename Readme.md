@@ -1,6 +1,6 @@
 ## Node Auth by JWT
 
-###For launch project
+### For launch project
 
 You need to installed MongoDB database locally, have 'node-jwt-auth' data base and 'users collections'.
 You can import user collections from 'mongodb.users.collection.json' file from this repository to recreate structure of fields.

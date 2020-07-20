@@ -23,6 +23,7 @@ let db: Db;
 try {
   const client: MongoClient = await MongoClient.connect(process.env.MONGO_CONNECTION_URL || '');
   db = client.db('node-jwt-auth');
+  process.on('exit', () => client.close());
 } catch (e) {
   console.log(e);
   process.exit(1);
