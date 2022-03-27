@@ -15,7 +15,7 @@
     "argon2": "^0.26.2",
     "body-parser": "^1.19.0",
     "jsonwebtoken": "^8.5.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mongodb": "^3.5.9",
     "multiparty": "^4.2.1",
     "nodemon": "^2.0.4",
